@@ -1,0 +1,21 @@
+{
+  "name": "backend-estacion",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
